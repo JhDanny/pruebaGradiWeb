@@ -1,0 +1,62 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans',sans-serif ;
+   
+}
+
+header{
+    height: 80vh;
+    background-image: linear-gradient(to top, rgba(39, 32, 32, 0.5) 0%, rgba(240, 229, 229, 0.5) 100%), url(../Imagenes/NikeRun02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+.nav{
+    background-color: rgba(180, 155, 155, 0.459);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__figure{
+    
+    width: 150px;
+    height: 100%;
+    padding: 0%;
+    margin: 3%;
+    
+}
+.figure__img{
+    height: 100%;
+}
+
+.nav__link{
+    color: black;
+    text-decoration: none;
+    transition: all 0.9s ease-in-out;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: #fff;
+}
+
+.nav__busqueda{
+    border-color: rgba(56, 15, 15, 0.466);
+    background-color: rgba(102, 77, 77, 0.5);
+    width: 200px;
+    height: 50px;
+	font-size:16px;
+	color:rgba(255, 0, 0, 0.575);	
+    transition: all 0.9s ease-in-out;
+    border-radius: 15px;
+}
+.main__tallastext{
+    visibility:inherit;
+}
